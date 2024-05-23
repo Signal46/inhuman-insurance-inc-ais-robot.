@@ -32,16 +32,6 @@ def produce_traffic_data():
 
     print("Producer finished")
 
-@task
-def consume_traffic_data():
-    """
-    Inhuman Insurance, Inc. Artificial Intelligence System automation.
-    Consumes traffic data work items.
-    """
-    print("Consumer started")
-    get_work_items()
-
-    print("Consumer finished")
 
 def download_traffic_data(target_traffic_data_json_filepath):
     """
@@ -113,8 +103,3 @@ def save_work_item_payloads(payloads):
     for payload in payloads:
         variables = dict(traffic_data=payload)
         workitems.outputs.create(variables)
-
-def get_work_items():
-    for item in workitems.inputs:
-        trafficdata=item.payload
-        print(trafficdata)
