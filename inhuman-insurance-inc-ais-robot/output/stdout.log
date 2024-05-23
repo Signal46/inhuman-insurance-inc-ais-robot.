@@ -4,6 +4,11 @@ Collecting task produce_traffic_data from: tasks.py
 Producer started
 Start downloading traffic data
 Traffic data successfully downloaded
+Parsing raw json file into table
+Filtering traffic data by rate, gender and sorting on year
+Getting latest traffic data by country
+Converting latest data by country into work item payloads
+Creating work items for each row of traffic data
 Producer finished
 [96mproduce_traffic_data[0m status: PASS
 ================================================================================

@@ -1,1 +1,6 @@
-2024-05-23 11:04:20,468 - RPA.core.certificates - INFO - Truststore injection done, using system certificate store to validate HTTPS.
+2024-05-23 14:35:56,787 - RPA.core.certificates - INFO - Truststore injection done, using system certificate store to validate HTTPS.
+Work items input path not defined, to simulate different input values set the
+environment variable `RC_WORKITEM_INPUT_PATH`.
+
+Generated input path: C:\Users\erics\Robocorp robots\inhuman-insurance-inc-ais-robot\inhuman-insurance-inc-ais-robot\output\work-items-in\workitems.json
+
